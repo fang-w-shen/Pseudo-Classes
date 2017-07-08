@@ -1,0 +1,12 @@
+.block {
+	list-style: none;
+	display:inline;
+}
+.inline {
+	display:block;
+	margin:25px;
+	border:1px solid black;
+}
+article section:nth-child(2n+0) {
+	border:1px solid red;
+}
